@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+.aboutus {
+	margin: 15px;
+	padding: 5px;
+}
+.aboutus h1 {
+	text-align: center;
+	color: black;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.aboutus p {
+    text-align: center;
+	padding: 3px;
+	color: white;
+}
+.text {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+	padding: 80px 30px;
+	box-shadow: 0 0 9 rgba(0,0,0,.6);
+	margin: 1;
+}
+.about,
+.cards {
+	padding-top: 70px;
+}
+.text i {
+	font-size: 34px;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+.text h3 {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.text hr {
+    width: 46px;
+	height: 3px;
+	background-color: #5fbff9;
+	margin: 0 auto;
+	border: none;
+}
+.text p {
+	margin-top: 20px;
+}
+.text:hover {
+	background-color: #5fbff9;
+}
+.text:hover i,
+.text:hover h3,
+.text:hover p {
+	color: #fff;
+}
+.text:hover hr {
+	background-color: white;
+}
+.text:hover i {
+	transform: translateY(-20px);
+}
+.text:hover i,
+.text:hover h3,
+.text:hover hr {
+	transition: all 400ms ease-in-out;
+}
+.row{
+display: flex;
+flex-direction: row;
+}
+.text {
+	text-align: center;
+}
+body {background-color: dimgray;}

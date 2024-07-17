@@ -1,0 +1,87 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Booking</title>
+	<link rel="icon" href="../../booking.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="book.css">
+</head>
+
+<body>
+	<section class="book" id="book">
+		<div class="row">
+			<div class="image">
+				<img src="undraw_travel_booking_re_6umu (1).svg">
+			</div>
+			<form action="../../payment/methodofpaying/method.html">
+				<input type="number" placeholder="number of tickets" class="box" required>
+				<input type="date" class="box" required><br><br>
+				<label for="Department"><span style="color: black;" required>start point :
+					</span></label>
+				<input list="x1">
+				<datalist id="x1">
+					<option value="Cairo"></option>
+					<option value="Alexandria"></option>
+					<option value="Aswan"></option>
+					<option value="menia"></option>
+					<option value="baniswif"></option>
+					<option value="Elmansora"></option>
+					<option value="Damanhur"></option>
+					<option value="luxor"></option>
+					<option value="Banha"></option>
+					<option value="Tanta"></option>
+					<option value="Damietta"></option>
+					<option value="Ismailia"></option>
+					<option value="Marsa Matrouh"></option>
+					<option value="Suez"></option>
+					<option value="Fayoum"></option>
+				</datalist><br><br>
+				<label for="Department"><span style="color: black;" required>destination:
+					</span></label>
+				<input list="x2">
+				<datalist id="x2">
+					<option value="Cairo"></option>
+					<option value="Alexandria"></option>
+					<option value="Aswan"></option>
+					<option value="menia"></option>
+					<option value="baniswif"></option>
+					<option value="Elmansora"></option>
+					<option value="Damanhur"></option>
+					<option value="luxor"></option>
+					<option value="Banha"></option>
+					<option value="Tanta"></option>
+					<option value="Damietta"></option>
+					<option value="Ismailia"></option>
+					<option value="Marsa Matrouh"></option>
+					<option value="Suez"></option>
+					<option value="Fayoum"></option>
+				</datalist><br><br>
+				<label for="Department"><span style="color: black;" required>select Car type :
+					</span></label>
+				<input list="x3">
+				<datalist id="x3">
+					<option value="sleeping"></option>
+					<option value="seats"></option>
+					<option value="disabled"></option>
+				</datalist><br><br>
+				<label for="Department"><span style="color: black;" required>select Car classification :
+					</span></label>
+				<input list="x4">
+				<datalist id="x4">
+					<option value="Class A"></option>
+					<option value="Class B"></option>
+					<option value="Class C"></option>
+				</datalist><br><br>
+				<label for="Payment Method"><span style="color: black;" required>Choose your travel type : </span></label>
+				<input type="radio" name="dd"> return
+				<input type="radio" name="dd"> open reutrn
+
+				<input type="submit" value="pay" class="btn">
+			</form>
+		</div>
+	</section>
+</body>
+
+</html>

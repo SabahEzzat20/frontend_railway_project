@@ -1,0 +1,32 @@
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>payment</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="method.css">
+	<script src="method.js"></script>
+</head>
+
+<body>
+	<section class="book" id="book">
+		<div class="row">
+			<div class="image">
+				<img src="../undraw_credit_card_re_blml.svg">
+			</div>
+			<form action="../pay.html">
+				<input type="number" placeholder="Enter SSN" class="box" required>
+				<input type="email" placeholder="Enter E-mail" class="box" required>
+				<input type="text" placeholder="Enter Phone Number" class="box" required>
+				<input type="text" placeholder="Payment Method" id="paymentmethod" class="box" oninput="message()" required>
+                <br>				
+				<input type="submit" value="next" class="btn" id="next">
+				<br><br>
+				<div class="fawryMsg" id="fawryMsg">You can pay off on this balance: <p class="code">341 668 091</p></div>
+			</form>
+		</div>
+	</section>
+</body>
+
+</html>
